@@ -1,5 +1,7 @@
 #Import library
 import numpy
+import matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 from keras.models import Sequential
 from keras.layers import Dense
